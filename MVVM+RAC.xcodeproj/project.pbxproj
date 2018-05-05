@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		314EE52F2086432C003786A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE52E2086432C003786A6 /* AppDelegate.m */; };
-		314EE5322086432C003786A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE5312086432C003786A6 /* ViewController.m */; };
 		314EE5352086432C003786A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314EE5332086432C003786A6 /* Main.storyboard */; };
 		314EE5372086432D003786A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314EE5362086432D003786A6 /* Assets.xcassets */; };
 		314EE53A2086432D003786A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314EE5382086432D003786A6 /* LaunchScreen.storyboard */; };
 		314EE53D2086432D003786A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE53C2086432D003786A6 /* main.m */; };
 		314EE5472086432D003786A6 /* MVVM_RACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE5462086432D003786A6 /* MVVM_RACTests.m */; };
 		314EE5522086432D003786A6 /* MVVM_RACUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE5512086432D003786A6 /* MVVM_RACUITests.m */; };
+		314EE579208647CC003786A6 /* PQFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE578208647CC003786A6 /* PQFirstViewController.m */; };
+		314EE57C208647DE003786A6 /* PQFirstViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE57B208647DE003786A6 /* PQFirstViewModel.m */; };
+		314EE57F208647EE003786A6 /* PQSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE57E208647EE003786A6 /* PQSecondViewController.m */; };
+		314EE58220864824003786A6 /* PQSecondViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE58120864824003786A6 /* PQSecondViewModel.m */; };
+		314EE5852087833C003786A6 /* PQMediator+TranslateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE5842087833C003786A6 /* PQMediator+TranslateView.m */; };
+		314EE58C2087861B003786A6 /* PQAppDelegateHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE58B2087861B003786A6 /* PQAppDelegateHandle.m */; };
+		314EE59120878CE0003786A6 /* PQTarget_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 314EE59020878CE0003786A6 /* PQTarget_test.m */; };
+		564F1C1A55423F8630A81490 /* Pods_MVVM_RAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABB6865EC7507E01B9522D7 /* Pods_MVVM_RAC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +45,6 @@
 		314EE52A2086432C003786A6 /* MVVM+RAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM+RAC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		314EE52D2086432C003786A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		314EE52E2086432C003786A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		314EE5302086432C003786A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		314EE5312086432C003786A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		314EE5342086432C003786A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		314EE5362086432D003786A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		314EE5392086432D003786A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,23 @@
 		314EE54D2086432D003786A6 /* MVVM+RACUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM+RACUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		314EE5512086432D003786A6 /* MVVM_RACUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_RACUITests.m; sourceTree = "<group>"; };
 		314EE5532086432D003786A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314EE577208647CC003786A6 /* PQFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PQFirstViewController.h; sourceTree = "<group>"; };
+		314EE578208647CC003786A6 /* PQFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PQFirstViewController.m; sourceTree = "<group>"; };
+		314EE57A208647DE003786A6 /* PQFirstViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PQFirstViewModel.h; sourceTree = "<group>"; };
+		314EE57B208647DE003786A6 /* PQFirstViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PQFirstViewModel.m; sourceTree = "<group>"; };
+		314EE57D208647EE003786A6 /* PQSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PQSecondViewController.h; sourceTree = "<group>"; };
+		314EE57E208647EE003786A6 /* PQSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PQSecondViewController.m; sourceTree = "<group>"; };
+		314EE58020864824003786A6 /* PQSecondViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PQSecondViewModel.h; sourceTree = "<group>"; };
+		314EE58120864824003786A6 /* PQSecondViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PQSecondViewModel.m; sourceTree = "<group>"; };
+		314EE5832087833C003786A6 /* PQMediator+TranslateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PQMediator+TranslateView.h"; sourceTree = "<group>"; };
+		314EE5842087833C003786A6 /* PQMediator+TranslateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PQMediator+TranslateView.m"; sourceTree = "<group>"; };
+		314EE58A2087861B003786A6 /* PQAppDelegateHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PQAppDelegateHandle.h; sourceTree = "<group>"; };
+		314EE58B2087861B003786A6 /* PQAppDelegateHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PQAppDelegateHandle.m; sourceTree = "<group>"; };
+		314EE58F20878CE0003786A6 /* PQTarget_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PQTarget_test.h; sourceTree = "<group>"; };
+		314EE59020878CE0003786A6 /* PQTarget_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PQTarget_test.m; sourceTree = "<group>"; };
+		67CADA20DD4749A973E3D615 /* Pods-MVVM+RAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+RAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+RAC/Pods-MVVM+RAC.debug.xcconfig"; sourceTree = "<group>"; };
+		AABB6865EC7507E01B9522D7 /* Pods_MVVM_RAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FCEB6F2B771E30C2C56401 /* Pods-MVVM+RAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+RAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+RAC/Pods-MVVM+RAC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564F1C1A55423F8630A81490 /* Pods_MVVM_RAC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				314EE5452086432D003786A6 /* MVVM+RACTests */,
 				314EE5502086432D003786A6 /* MVVM+RACUITests */,
 				314EE52B2086432C003786A6 /* Products */,
+				6A62B21381D4AE7571AF2E7A /* Pods */,
+				7D0B81B18B1CEE61242A6337 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +126,13 @@
 		314EE52C2086432C003786A6 /* MVVM+RAC */ = {
 			isa = PBXGroup;
 			children = (
+				314EE58720878585003786A6 /* Common */,
+				314EE58620878563003786A6 /* View */,
+				314EE56E20864739003786A6 /* Model */,
+				314EE56C20864739003786A6 /* Router */,
+				314EE56D20864739003786A6 /* ViewController */,
 				314EE52D2086432C003786A6 /* AppDelegate.h */,
 				314EE52E2086432C003786A6 /* AppDelegate.m */,
-				314EE5302086432C003786A6 /* ViewController.h */,
-				314EE5312086432C003786A6 /* ViewController.m */,
 				314EE5332086432C003786A6 /* Main.storyboard */,
 				314EE5362086432D003786A6 /* Assets.xcassets */,
 				314EE5382086432D003786A6 /* LaunchScreen.storyboard */,
@@ -132,6 +160,112 @@
 			path = "MVVM+RACUITests";
 			sourceTree = "<group>";
 		};
+		314EE56C20864739003786A6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				314EE58D20878C75003786A6 /* TransLate */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		314EE56D20864739003786A6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				314EE57520864785003786A6 /* First */,
+				314EE57620864799003786A6 /* Second */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		314EE56E20864739003786A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		314EE57520864785003786A6 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				314EE577208647CC003786A6 /* PQFirstViewController.h */,
+				314EE578208647CC003786A6 /* PQFirstViewController.m */,
+				314EE57A208647DE003786A6 /* PQFirstViewModel.h */,
+				314EE57B208647DE003786A6 /* PQFirstViewModel.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		314EE57620864799003786A6 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				314EE57D208647EE003786A6 /* PQSecondViewController.h */,
+				314EE57E208647EE003786A6 /* PQSecondViewController.m */,
+				314EE58020864824003786A6 /* PQSecondViewModel.h */,
+				314EE58120864824003786A6 /* PQSecondViewModel.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		314EE58620878563003786A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314EE58720878585003786A6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				314EE589208785D0003786A6 /* user */,
+				314EE588208785C5003786A6 /* system */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		314EE588208785C5003786A6 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				314EE58A2087861B003786A6 /* PQAppDelegateHandle.h */,
+				314EE58B2087861B003786A6 /* PQAppDelegateHandle.m */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		314EE589208785D0003786A6 /* user */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		314EE58D20878C75003786A6 /* TransLate */ = {
+			isa = PBXGroup;
+			children = (
+				314EE5832087833C003786A6 /* PQMediator+TranslateView.h */,
+				314EE5842087833C003786A6 /* PQMediator+TranslateView.m */,
+				314EE58F20878CE0003786A6 /* PQTarget_test.h */,
+				314EE59020878CE0003786A6 /* PQTarget_test.m */,
+			);
+			path = TransLate;
+			sourceTree = "<group>";
+		};
+		6A62B21381D4AE7571AF2E7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67CADA20DD4749A973E3D615 /* Pods-MVVM+RAC.debug.xcconfig */,
+				F6FCEB6F2B771E30C2C56401 /* Pods-MVVM+RAC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D0B81B18B1CEE61242A6337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABB6865EC7507E01B9522D7 /* Pods_MVVM_RAC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 314EE5562086432D003786A6 /* Build configuration list for PBXNativeTarget "MVVM+RAC" */;
 			buildPhases = (
+				50829C85B48C07303949F3A6 /* [CP] Check Pods Manifest.lock */,
 				314EE5262086432C003786A6 /* Sources */,
 				314EE5272086432C003786A6 /* Frameworks */,
 				314EE5282086432C003786A6 /* Resources */,
+				C9F8F25992C10A3A902EDEF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +330,7 @@
 		314EE5222086432C003786A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PQ;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = pqwen;
 				TargetAttributes = {
@@ -257,13 +394,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50829C85B48C07303949F3A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM+RAC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9F8F25992C10A3A902EDEF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+RAC/Pods-MVVM+RAC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PQMediator/PQMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PQMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+RAC/Pods-MVVM+RAC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		314EE5262086432C003786A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				314EE5322086432C003786A6 /* ViewController.m in Sources */,
+				314EE5852087833C003786A6 /* PQMediator+TranslateView.m in Sources */,
+				314EE58C2087861B003786A6 /* PQAppDelegateHandle.m in Sources */,
+				314EE579208647CC003786A6 /* PQFirstViewController.m in Sources */,
+				314EE58220864824003786A6 /* PQSecondViewModel.m in Sources */,
+				314EE59120878CE0003786A6 /* PQTarget_test.m in Sources */,
 				314EE53D2086432D003786A6 /* main.m in Sources */,
+				314EE57C208647DE003786A6 /* PQFirstViewModel.m in Sources */,
+				314EE57F208647EE003786A6 /* PQSecondViewController.m in Sources */,
 				314EE52F2086432C003786A6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +617,7 @@
 		};
 		314EE5572086432D003786A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CADA20DD4749A973E3D615 /* Pods-MVVM+RAC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +635,7 @@
 		};
 		314EE5582086432D003786A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FCEB6F2B771E30C2C56401 /* Pods-MVVM+RAC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,30 @@
+PODS:
+  - PQMediator (1.0.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - PQMediator (~> 1.0.0)
+  - ReactiveCocoa (~> 2.5.0)
+  - SVProgressHUD (~> 2.2.5)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PQMediator
+    - ReactiveCocoa
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  PQMediator: daea02c4238ffee2936202932122d670a9449fae
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 7923455fd49262cfdca035012b342ab18f91d13b
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,6 @@
+framework module PQMediator {
+  umbrella header "PQMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}
