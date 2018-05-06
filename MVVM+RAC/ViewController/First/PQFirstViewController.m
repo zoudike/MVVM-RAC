@@ -19,6 +19,7 @@
 - (IBAction)replaySubjectTestAction:(id)sender;
 - (IBAction)repeatSubscriberTestAction:(id)sender;
 - (IBAction)connectTestAction:(id)sender;
+- (IBAction)commandTestAction:(id)sender;
 
 
 
@@ -36,6 +37,10 @@
 
 - (void)bindViewModel {
     self.viewModel = [[PQFirstViewModel alloc] init];
+    //command处理结果，如果涉及UI的变化可以在viewcontroller或者view中进行订阅
+    [[[self.viewModel.command.executionSignals switchToLatest] deliverOnMainThread] subscribeNext:^(id x) {
+        NSLog(@"捕获结果再处理ui层的变化");
+    }];
 }
 
 #pragma mark -- Actions
@@ -119,6 +124,10 @@
     }];
     [connection connect];
     
+}
+
+- (IBAction)commandTestAction:(id)sender {
+    [self.viewModel.command execute:nil];
 }
 
 @end

@@ -13,5 +13,6 @@
 
 @property (nonatomic, strong) RACSignal *coolSignal1;            //冷信号1
 @property (nonatomic, strong) RACSignal *coolSignal2;           //冷信号2
+@property (nonatomic, strong) RACCommand *command;
 
 @end

@@ -40,6 +40,23 @@
     return self;
 }
 
+//创建command，一般这种实现业务逻辑的操作放在viewmodel中
+- (RACCommand *)command {
+    if (!_command) {
+        _command = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
+            return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+                NSLog(@" 此处可以进行网络请求或者其他的操作,操作结果可以通过订阅者send出去");
+                //模拟一个网络请求
+                dispatch_async(dispatch_queue_create(0, 0), ^{
+                    [subscriber sendNext:@"事件处理结果"];
+                    [subscriber sendCompleted];
+                });
+                return nil;
+            }];
+        }];
+    }
+    return _command;
+}
 
 @end
 
